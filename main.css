@@ -277,13 +277,13 @@ div ~ .hd {
 }
 
 .vw-vh-vmin-vmax {
-    width: 5vw; /* Chiều rộng của phần tử bằng 50% chiều rộng của viewport */
-    height: 10vh; /* Chiều cao của phần tử bằng 30% chiều cao của viewport */
+    width: 5vw; 
+    height: 10vh; 
     padding: 1vmin; 
     background-color: #f0f0f0;
     color: #333;
     text-align: center;
-    line-height: 10vh; /*Căn giữa nội dung theo chiều cao của viewport*/
+    line-height: 10vh; 
 }
 
 .name {
@@ -294,7 +294,8 @@ div ~ .hd {
     display: flex;
     height: 200px;
     background-color: pink;
-    align-items: center;   justify-content: center;
+    align-items: center;   
+    justify-content: center;
 }
 
 .pbm {
@@ -321,7 +322,6 @@ div ~ .hd {
     width: 100vw;
     background-position: center;
     background-size: 50%;
-    /* */
     background-attachment: fixed;
     background-repeat: repeat-x;
 }
