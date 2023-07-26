@@ -1,0 +1,335 @@
+/* * {
+    margin: 0 ;
+    border: 0 ;
+    padding: 0;
+} */
+
+/* @font-face {
+    font-family: 'Font Name', sans-serif;
+    src: url('path/to/font.woff2') format('woff2'),
+         url('path/to/font.woff') format('woff');
+} */
+
+html {
+font-family: 'Font Name', sans-serif;
+}
+
+.ex1 {
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+/* ex2 */
+.ex2 h1 {
+    color: green;
+}
+
+
+.ex2 h2 ,
+.ex2 h3 {
+    color: red;
+}
+
+
+/* ex 3  */
+.one {
+    text-decoration: underline;
+}
+
+.two {
+   text-decoration: line-through; 
+}
+
+.four  {
+    text-transform: capitalize;
+}
+
+.five {
+    text-transform: uppercase;
+}
+
+.six {
+    text-transform: lowercase;
+}
+
+.seven {
+    text-shadow: 1px 1px 5px blue;
+}
+
+/* ex 4 */
+.ex4 h1{
+    text-align: center;
+    color: red;
+    background-color: #ccc;
+}
+
+.ex4 h2{
+    text-align: center;
+    color: red;
+}
+
+.ex4 .new {
+    color: aqua;
+}
+
+.new-highlight {
+    color: green;
+}
+
+.news {
+    text-align: right;   
+}
+
+.bule {
+    color: blue;
+}
+
+/* EX 5  */
+.ex5 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(105, 105, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    background-color: rgb(184, 171, 171);
+}
+
+/* EX 6 */
+.ex6 {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.header {
+    border : 1px solid black;
+    margin: 6px;
+    background-color: aqua;
+    height: 50px;
+}
+
+.content {
+    border : 1px solid black;
+    margin: 6px;
+    height: 100px;
+}
+
+.footer {
+    border : 1px solid black;
+    margin: 6px;
+    background-color: aqua;
+}
+
+/* EX 7 */
+.ex7 .table1 ul  {
+    margin: 10px;
+    list-style-type: none;
+    background-color: #ccc;
+}
+
+
+
+
+
+.element p {
+    color: red;
+}
+
+/* id secletor */
+#nv {
+    color: aqua;
+}
+
+/* class secletor */
+.tb { 
+    color: green;
+}
+
+/* grouping selector */
+.element , .tb {
+    text-align: center;
+}
+
+.element .vn {
+    font-size: 30px;
+}
+
+.nd > p {
+    color: red;
+}
+
+.element + .tb {
+    font-size: 30px;
+}
+
+div.hp {
+    color: brown;
+    text-align: center;
+}
+
+div ~ .hd {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* Độ ưu tiên*/
+.tn {
+    color: aqua !important; 
+}
+
+#tn {
+    color: aquamarine;
+}
+
+/* div {
+    color: blueviolet;
+} */
+
+/* các đơn vị đo  */
+.box1 {
+    height: 300px;
+    background-color: pink;
+}
+
+.px {
+    color: #ccc;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+/* pt gtri tuong doi voi do phan giai man hinh 1pt = 1/72inch */
+.pt {
+    width: 30pt;
+    color: #ccc;
+    background-color: black;
+    margin: 1pt;
+    border: 1pt solid white;
+}
+
+.cm {
+    width: 5cm;
+    color: #ccc;
+    background-color: black;
+    margin: 0.5cm;
+    border: 0.2cm solid white;
+}
+
+.mn {
+    width: 100mm;
+    color: #ccc;
+    background-color: black;
+    margin: 10mm;
+    border: 0.5mm solid white;
+}
+
+.inch {
+    color: #ccc;
+    background-color: black;
+    margin: 0.1in;
+    border: 0.03in solid white;
+}
+
+.pc {
+    width: 10pc;
+    color: #ccc;
+    background-color: black;
+    margin: 1pc;
+    border: 0.5pc solid white;
+}
+
+.box2 {
+    margin: 20px 0 ;
+    height: 300px;
+    background-color: pink;
+}
+
+.phantram {
+    color: #fff;
+    width: 50%;
+    background-color: black;
+}
+
+/* tham chiếu tỷ lệ so với phần tử gốc của website */
+.rem {
+    color: #fff;
+    width: 50%;
+    margin: 1rem;
+    border: 0.1rem solid white;
+    background-color: black;
+}
+
+/* tham chiếu tỷ lệ so với phần tử cha hoặc chính nó  */
+.em {
+    color: #fff;    
+    width: 50%;
+    margin: 1em;
+    border: 0.1em solid white;
+    background-color: black;
+}
+
+.vw-vh-vmin-vmax {
+    width: 5vw; /* Chiều rộng của phần tử bằng 50% chiều rộng của viewport */
+    height: 10vh; /* Chiều cao của phần tử bằng 30% chiều cao của viewport */
+    padding: 1vmin; 
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    line-height: 10vh; /*Căn giữa nội dung theo chiều cao của viewport*/
+}
+
+.name {
+    color: green;
+}
+
+.box3 {
+    display: flex;
+    height: 200px;
+    background-color: pink;
+    align-items: center;   justify-content: center;
+}
+
+.pbm {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.box4 {
+    background-image: url(./img/9006e789953adec7d498badcf01a7fe4.jpg_720x720q80.jpg);
+    height: 100vh;
+    width: 50vh;
+    background-size: 100% ;
+    margin: 10px;
+    background-repeat: repeat-y; 
+}
+
+.box5 {
+    background-image: url(./img/Doraemon_character.png.webp);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: 50%;
+    /* */
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+
+
+  
+
+  
+
+
+
